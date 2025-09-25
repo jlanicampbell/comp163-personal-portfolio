@@ -78,3 +78,41 @@ print("Current GPA:", current_gpa)
 print("Social Points:", social_points)
 print("Study Hours:", study_hours)
 print("Stress Level:", stress_level)
+
+# Step 4: Final Semester Assessment 
+major = "CS"
+
+if type(study_choice) is str:
+    print("Identity Check: study_choice is stored as a string.")
+
+if type(study_choice) is not int:
+    print("Indentity Check: study_choice is not an integer.")
+
+if major in ["CS", "Math", "Engineering", "Physics"] and study_choice in ["Programming", "Math"]:
+    current_gpa = current_gpa + 0.05
+    if current_gpa > 4.0:
+        current_gpa = 4.0
+if current_gpa >= 3.5:
+    if stress_level < 40:
+        ending = "Dean's List"
+    else:
+        ending = "High GPA but too much stress"
+elif current_gpa >= 2.5:
+    if social_points >= 10:
+        ending = "Solid Semester"
+    else:
+        ending = "Could improve networking"
+else:
+    if stress_level > 70:
+        ending = "On Probabtion"
+    else:
+        ending = "Needs Academic Recovery"
+
+print("===== FINAL SEMESTER REPORT =====")
+print("Major:", major)
+print("GPA:", current_gpa)
+print("Study Hours:", study_hours)
+print("Social Points:", social_points)
+print("Stress Level:", stress_level)
+print("Result:", ending)
+print("=================================")
