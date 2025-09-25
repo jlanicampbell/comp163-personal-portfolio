@@ -1,5 +1,5 @@
 # comp163-personal-portfolio
-# Assignment 3
+# Assignment 4
 
 # Semester Simulator 
 Semester Simulator is a text-based game where you play as a student managing your semester. You make choices about course load and study focus, which impact your GPA, stress, study hours, and social points. At the end of the game, your performance is evaluated to give you a realistic outcome such as making the Dean's List, having a solid semester, or ending up on probabtion. 
