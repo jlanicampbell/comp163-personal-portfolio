@@ -8,7 +8,7 @@ Semester Simulator is a text-based game where you play as a student managing you
 The program demonstrates if/elif/else branching in Step 2, where the choice of course load (A, B, or C) changes study hours and stress level. It also demonstrates nested if statements in Step 4, where GPA, stress, and social points are checked together to decide the final ending. It also demonstrates the use of logical operators (and,or,not) in Step 3, where GPA and subject choices combine (for example, when English is chosen and GPA is less than 3.0). It also demonstrates membership operators (in,not in) in Step 3, where the program validates the study options, and also in Step 4, where it checks for synergy between major and study subject. Finally, it demonstrates identity operators (is,is not) in Step 4, where the program checks that the player's input is stored as a string, and verifies that it is not an integer. 
 
 # How to Run Game 
-1. python jelanicampbell_assignment.3.py
+1. py jelanicampbell_assignment.3.py
 
 # Different Endings
 Dean's List: High GPA with balanced stress and social points. 
