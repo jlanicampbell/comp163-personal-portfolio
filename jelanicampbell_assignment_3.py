@@ -18,7 +18,7 @@ print("A) Light (12 credits)")
 print("B) Standard (15 credits)")
 print("C) Heavy (18 credits)")
 
-choice = input("Your choice: ").strip().upper()
+choice = input("Your choice: ")
 
 if choice == "A":
     if current_gpa >= 2.0:
